@@ -4,6 +4,8 @@ A (super) simple jQuery carousel plugin
 
 It's so simple that it will not get in our way of how to style our carousel
 
+[Simple Demo](https://codepen.io/pirey/pen/ygGvNQ)
+
 ## Usage
 
 Include required script and style
