@@ -2,7 +2,7 @@
 
 A (super) simple jQuery carousel plugin
 
-It's so simple that it will not get in your way of how to style your carousel
+It's so simple that it will not get in our way of how to style our carousel
 
 ## Usage
 
@@ -19,7 +19,11 @@ Place the carousel inside element with `class` attribute `carousel-wrap`
 
 Then, the element with `class` of `carousel` contains the slide `item`s
 
-Put your content inside the `item`s
+Put our content inside the `item`s
+
+#### Navigation
+
+We just have to create element with either class of `next` or `prev` to trigger `next` or `prev` carousel respectively.
 
 
 ```
@@ -39,13 +43,13 @@ Put your content inside the `item`s
 </div>
 ```
 
-**TIPS:** You can customize it however you want as long as it comply the structure above.
+**TIPS:** We can customize it however we want as long as it comply the structure above.
 
 Alright, now call the plugin on the container element
 
-Here our selector is `.my-carousel`
+Here, our selector is `.my-carousel`
 
-You can have multiple element with class `.my-carousel` and have them `geserified` (I also have no idea what that means :| )
+We can have multiple element with class `.my-carousel` and have them `geserified` (I also have no idea what that means :| )
 
 
 ```
@@ -54,7 +58,7 @@ $('.my-carousel').geserify({ autoPlay: false, interval: 1000 });
 </script>
 ```
 
-Or you can see the included example files.
+Or we can see the included example files.
 
 ## Options
 
@@ -76,7 +80,7 @@ Here's all the available options with their respective default value:
 }
 ```
 
-You can override those options when calling `.geserify(options)`
+We can override those options when calling `.geserify(options)`
 
 ## TODO
 - Make this to be less super simple
