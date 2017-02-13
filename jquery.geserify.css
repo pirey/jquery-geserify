@@ -1,0 +1,15 @@
+.carousel-wrap {
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+.carousel {
+  background-color: #eee;
+  transition: transform ease 1s;
+}
+.carousel .item {
+  height: 100%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+}

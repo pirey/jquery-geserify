@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geserify</title>
+
+    <link rel="stylesheet" href="jquery.geserify.css">
+    <style>
+    .carousel .item {
+        background-color: cadetblue;
+    }
+    .carousel .item:first-child {
+        background-color: orange;
+    }
+    .carousel .item:last-child {
+        background-color: gold;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="my-carousel">
+        <div class="carousel-wrap">
+            <div class="carousel">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+            </div>
+        </div>
+
+        <div class="nav">
+            <button class="next">Next</button><button class="prev">Prev</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="jquery.geserify.js"></script>
+
+    <script>
+        $('.my-carousel').geserify();
+    </script>
+    
+    
+</body>
+</html>

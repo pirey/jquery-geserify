@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geserify</title>
+
+    <link rel="stylesheet" href="jquery.geserify.css">
+    <style>
+
+    .item img {
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        <div class="my-carousel">
+            <div class="carousel-wrap">
+                <div class="carousel">
+                    <div class="item">
+                        <img alt="" src="https://source.unsplash.com/gYl-UtwNg_I/1500x1500">
+                    </div>
+                    <div class="item">
+                        <img alt="" src="https://source.unsplash.com/1CD3fd8kHnE/1500x1500">
+                    </div>
+                    <div class="item">
+                        <img alt="" src="https://source.unsplash.com/3MNzGlQM7qs/1500x1500">
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav">
+                <button class="next">Next</button><button class="prev">Prev</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- we can have multiple carousel, alright -->
+    <div class="my-carousel">
+        <div class="carousel-wrap">
+            <div class="carousel">
+                <div class="item">
+                    <img alt="" src="https://source.unsplash.com/gYl-UtwNg_I/1500x1500">
+                </div>
+                <div class="item">
+                    <img alt="" src="https://source.unsplash.com/1CD3fd8kHnE/1500x1500">
+                </div>
+                <div class="item">
+                    <img alt="" src="https://source.unsplash.com/3MNzGlQM7qs/1500x1500">
+                </div>
+            </div>
+        </div>
+
+        <div class="nav">
+            <button class="next">Next</button><button class="prev">Prev</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="jquery.geserify.js"></script>
+
+    <script>
+        $('.my-carousel').geserify({ autoPlay: false });
+    </script>
+    
+    
+</body>
+</html>
